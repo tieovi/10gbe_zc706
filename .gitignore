@@ -127,3 +127,39 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Vivado / FPGA build artifacts
+.Xil/
+vivado.jou
+vivado.log
+vivado_pid*.str
+*.str
+
+# Generated IP outputs (keep only .xci source; everything else is regenerated)
+ip/elaborate/
+ip/synth/
+ip/hdl/
+ip/doc/
+ip/*.dcp
+ip/*_sim_netlist.v
+ip/*_sim_netlist.vhdl
+ip/*_stub.v
+ip/*_stub.vhdl
+ip/*.veo
+ip/*.vho
+ip/*.xml
+
+# AI assistant project dirs
+.claude/
+.codex/
+.agents/
+.ruff_cache/
+
+# Diagrams (local only)
+diagrams/
+
+# Local-only markdown notes (not for the repo)
+ARTICLE_*.md
+CLOCK_*.md
+PoC_*.md
+CLAUDE.md

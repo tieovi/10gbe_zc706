@@ -128,6 +128,12 @@ PG068 (BASER mode) is a **free license** — no eval restriction.
 
 ---
 
+## Credits
+
+Based on the original 10GbE LiteEth work by [@jersey99](https://github.com/jersey99/10gbe).
+
+---
+
 ## Related
 
 - **Article 1** — [10G Ethernet on ZC706: One Board, One PC](https://tieovi.github.io/posts/zc706-10g-one-board) (PG157 eval IP baseline)
